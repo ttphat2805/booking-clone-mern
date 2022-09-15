@@ -1,0 +1,35 @@
+.image-preview {
+  .gallery {
+    .image-item {
+      width: 32%;
+      position: relative;
+      img {
+        width: 100% !important;
+        height: 180px;
+      }
+      button {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+      }
+      .btn-icon {
+        background: transparent;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 10px;
+        border: 1px solid rgb(201, 40, 40);
+        outline: none;
+        cursor: pointer;
+        color: rgb(201, 40, 40);
+        transition: all 0.3s;
+        svg {
+          font-size: 14px;
+        }
+        &:hover {
+          color: #fff;
+          background: rgb(201, 40, 40);
+        }
+      }
+    }
+  }
+}
